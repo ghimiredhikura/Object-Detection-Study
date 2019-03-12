@@ -18,7 +18,8 @@ If 5 anchors are used the output map will be `W x H x C = 32 x 16 x 70`.
 parameters as follows: `Obj_ori = arctan2(Im, Re)`  
 
 * The Complex-YOLO loss function is the extension of the YOLO loss function: `loss = loss_yolo + loss_eular`
-
+****
 #### [Extended summary](./Complex-yolo-extended-summary.docx)
-
+****
 #### [Implementation detail]()
+****
