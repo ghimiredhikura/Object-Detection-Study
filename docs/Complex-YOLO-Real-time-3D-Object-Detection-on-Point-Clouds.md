@@ -21,5 +21,5 @@ parameters as follows: `Obj_ori = arctan2(Im, Re)`
 ****
 #### [Extended summary](./Complex-yolo-extended-summary.pdf)
 ****
-#### [Implementation detail]()
+#### [Implementation detail](./complex-yolo-implementation.md)
 ****
