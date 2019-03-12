@@ -12,13 +12,13 @@ Authors: Martin Simon, Stefan Milz, Karl Amende, Horst-Michael Gross
 
 * Now, YOLO-v2 is applied on BEV map which will predict object geometry(6: x, y, w, l, im, re), conf(1) and class probabilities(7).
 The object orientation information is also included along with location information, therefore they named it as complex-yolo. 
-If 5 anchors are used the output map will be W x H x C = 32 x 16 x 70.  
+If 5 anchors are used the output map will be `W x H x C = 32 x 16 x 70`.  
 
 * As height of the object is not regressed, only object position and orientation will be detected. The orientation will be calculated based on `Im` and `Re`
 parameters as follows: `Obj_ori = arctan2(Im, Re)`  
 
 * The Complex-YOLO loss function is the extension of the YOLO loss function: `loss = loss_yolo + loss_eular`
 
-#### Extended summary: [click here]()
+#### [Extended summary](./Complex-yolo-extended-summary.docx)
 
-#### Implementation detail: [click here]()
+#### [Implementation detail]()
