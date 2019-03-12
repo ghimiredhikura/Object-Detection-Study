@@ -19,7 +19,7 @@ parameters as follows: `Obj_ori = arctan2(Im, Re)`
 
 * The Complex-YOLO loss function is the extension of the YOLO loss function: `loss = loss_yolo + loss_eular`
 ****
-#### [Extended summary](./Complex-yolo-extended-summary.docx)
+#### [Extended summary](./Complex-yolo-extended-summary.pdf)
 ****
 #### [Implementation detail]()
 ****
